@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class GMTest : MonoBehaviour {
+public class Intro : MonoBehaviour {
 	
 	SimpleGameManager GM;
 	
