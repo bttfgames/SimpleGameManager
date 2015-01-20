@@ -6,7 +6,7 @@ public enum GameState { INTRO, MAIN_MENU, PAUSED, GAME, CREDITS, HELP }
 
 public delegate void OnStateChangeHandler();
 
-public class SimpleGameManager {
+public class SimpleGameManager: Object {
 	protected SimpleGameManager() {}
 	private static SimpleGameManager instance = null;
 	public event OnStateChangeHandler OnStateChange;
