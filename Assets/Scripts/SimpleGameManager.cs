@@ -15,8 +15,8 @@ public class SimpleGameManager: Object {
 	public static SimpleGameManager Instance{
 		get {
 			if (SimpleGameManager.instance == null){
-				DontDestroyOnLoad(SimpleGameManager.instance);
 				SimpleGameManager.instance = new SimpleGameManager();
+				DontDestroyOnLoad(SimpleGameManager.instance);
 			}
 			return SimpleGameManager.instance;
 		}
